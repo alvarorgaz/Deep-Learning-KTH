@@ -10,7 +10,7 @@ This repository contains the assignments (code + report) of the Deep Learning co
 
 - *Assignment 1*: Multi-linear classifier network (no hidden layer, SoftMax output activation, Cross Entropy loss plus L2 regularization) with vanilla mini-batch backpropagation (coded from scratch). Tricks implemented: decaying learning rate, Xavier weights initialization, shuffling data by epochs, ensemble of networks, Hinge loss.
 
-- *Assignment 2*: 2-layer classifier network (1 hidden layer with ReLu activation, SoftMax output activation, Cross Entropy loss plus L2 regularization) with cyclical learning rates (CLR from [Smith, 2015]) mini-batch backpropagation (coded from scratch). Tricks implemented: ensemble networks by cycles, dropout regularization, parameters tuning ($\lambda$ and $\eta$ range).
+- *Assignment 2*: 2-layer classifier network (1 hidden layer with ReLu activation, SoftMax output activation, Cross Entropy loss plus L2 regularization) with cyclical learning rates (CLR from [Smith, 2015]) mini-batch backpropagation (coded from scratch). Tricks implemented: ensemble networks by cycles, dropout regularization, parameters tuning (regularization and learning rate range).
 
 **Code:**
 
