@@ -12,6 +12,8 @@ This repository contains the assignments (code + report) of the Deep Learning co
 
 - *Assignment 2*: 2-layer classifier network (1 hidden layer with ReLu activation, SoftMax output activation, Cross Entropy loss plus L2 regularization) with cyclical learning rates (CLR from [Smith, 2015]) mini-batch backpropagation (coded from scratch). Tricks implemented: ensemble networks by cycles, dropout regularization, parameters tuning (regularization and learning rate range).
 
+- *Assignment 2*: k-layer classifier network (k-1 hidden layer with ReLu activation and Batch Normalization, SoftMax output activation, Cross Entropy loss plus L2 regularization) with cyclical learning rates (CLR from [Smith, 2015]) mini-batch backpropagation (coded from scratch). Tricks implemented: batch normalization, dropout regularization, data augmentation with geometric jitter to training images.
+
 **Code:**
 
 The project has been developed in Python using Jupyter Notebook.
