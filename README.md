@@ -14,7 +14,7 @@ This repository contains the assignments (code + report) of the Deep Learning co
 
 - *Assignment 3*: k-layer classifier network (k-1 hidden layer with ReLu activation and Batch Normalization, SoftMax output activation, Cross Entropy loss plus L2 regularization) with cyclical learning rates (CLR from [Smith, 2015]) mini-batch backpropagation (coded from scratch). Tricks implemented: batch normalization, dropout regularization, data augmentation with geometric jitter to training images.
 
-- *Assignment 4*:
+- *Assignment 4*: Recurrent neural network (one input layer and output layer both with as many nodes as characters in alphabet and SoftMax as output activation function, 1 hidden layer with tanh as activation function, Cross Entropy loss over a sequence of characters) trained to predict text from the book *The Goblet of Fire* by J.K. Rowling and tweets of Donald Trump. During the training, the target character of each character in the input sequence is its following character in the book.
 
 **Code:**
 
